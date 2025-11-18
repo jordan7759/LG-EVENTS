@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG EVENTS - Évènementiel</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            height: 90px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-left: 5px solid #c715ff;
+            padding-left: 10px;
+        }
+
+        .galerie {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .galerie img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .prix {
+            background: #f0e8ff;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #000;
+            padding: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        .contact {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="assets/images/logo.png" alt="Logo LG Events">
+    <h1>LG EVENTS</h1>
+    <p>Rendez vos événements inoubliables</p>
+</header>
+
+<section>
+    <h2>🎉 Châteaux Gonflables</h2>
+
+    <div class="galerie">
+        <img src="assets/images/chateau1.png" alt="Château gonflable 1">
+        <img src="assets/images/chateau2.png" alt="Château gonflable 2">
+    </div>
+
+    <div class="prix">
+        ✔️ 50 € la journée<br>
+        ✔️ 80 € pour 2 jours
+    </div>
+</section>
+
+<section>
+    <h2>🪑 Location de Tables & Chaises</h2>
+
+    <div class="galerie">
+        <img src="assets/images/table.png" alt="Table">
+        <img src="assets/images/chaise.png" alt="Chaise">
+    </div>
+
+    <div class="prix">
+        ✔️ Table (180 x 75 cm) : 4,50 € / unité<br>
+        ✔️ Chaise noire : 1,50 € / unité
+    </div>
+</section>
+
+<section>
+    <h2>🍭 Machine à Barbe à Papa</h2>
+
+    <div class="prix">
+        ✔️ 40 € la journée
+    </div>
+</section>
+
+<section>
+    <h2>🦸 Mascottes avec intervenant</h2>
+
+    <div class="galerie">
+        <img src="assets/images/mascotte1.png" alt="Mascotte 1">
+        <img src="assets/images/mascotte2.png" alt="Mascotte 2">
+        <img src="assets/images/mascotte3.png" alt="Mascotte 3">
+    </div>
+
+    <div class="prix">
+        ✔️ 1h00 : 60 €
+    </div>
+</section>
+
+<section>
+    <h2>🎉 Diverses Animations</h2>
+    <p>➡️ Voir MP pour plus de détails</p>
+</section>
+
+<section>
+    <h2>📞 Contact</h2>
+    <p class="contact"><b>+33 6 41 54 37 30</b></p>
+    <p>📸 Instagram : <b>LGEVENTS__</b></p>
+    <p>👻 Snapchat : <b>LG-EVENTS</b></p>
+</section>
+
+<footer>
+    © 2025 LG EVENTS – Tous droits réservés
+</footer>
+
+</body>
+</html>
